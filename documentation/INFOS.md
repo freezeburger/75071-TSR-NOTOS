@@ -1,8 +1,13 @@
 
 
 
-https://docadmin.orsys.fr/.
-Le mot de passe : bA63mMdZ6
+Le lien pour les participants est :
+
+> https://docadmin.orsys.fr/.
+
+Le mot de passe de connexion : 
+
+> uDdRfWqcf
 
 
 
@@ -28,21 +33,5 @@ Le mot de passe : bA63mMdZ6
 
 
 
-
-
-
-
-
-
-
-
-
-
-
---------------------------------------------------------------------------
-
-
-
-
-Notre plateforme est accessible depuis l'url https://docadmin.orsys.fr//Formateur à partir du premier jour de la formation.
-Votre mot de passe de connexion : WxQTM88Hk
+https://docadmin.orsys.fr/Formateur.
+Votre mot de passe de connexion : BSMYQaadJ
