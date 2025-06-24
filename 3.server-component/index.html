@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + TS</title>
+</head>
+
+<body>
+  <div data-screen-id="screen-1"></div>
+  <div data-screen-id="screen-2"></div>
+
+  <script type="module" src="/src/main.ts"></script>
+  
+  <template data-for-screen="screen-1">
+    <style>
+      :host {
+        display: block;
+        padding: 20px;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+      }
+    </style>
+
+    <div id="content">
+      <h1>Server Screen 1</h1>
+      <p>This is a server-screen component.</p>
+      <button screen-event:click>Click Me</button>
+    </div>
+
+  </template>
+
+  <template data-for-screen="screen-2">
+    <script>
+      console.log('Screen 2 script executed');
+    </script>
+    <style>
+      :host {
+        display: block;
+        padding: 20px;
+        margin: 20px;
+        height: 80vh;
+        width: 80vw;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+      }
+    </style>
+    <div id="content">
+      <h1>Server Screen 2</h1>
+    </div>
+  </template>
+</body>
+
+</html>
